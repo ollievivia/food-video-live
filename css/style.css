@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+/* Estils per a la navbar */
+nav {
+    background-color: #4b6b8b;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0efef;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #9095a8;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #8cb1d5;
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #2d2c2c;
+}
+
+.form {
+   text-align: left; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b8d2e8;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    z-index: 1000;
+}
